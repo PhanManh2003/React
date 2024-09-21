@@ -192,9 +192,11 @@ const movies = [
 ];
 
 let genres = movies.flatMap((movie) => {
-  return movie.genres;
+  return movie.genres.flatMap((genre) => {
+    return genre;
+  });
 });
-console.log(genres);
+console.log([...new Set(genres)]);
 
 // mình muốn các giá trị trùng lặp biến mất (reduce => O(n))
 // Set => lọc ra các giá trị trùng nhau
@@ -231,3 +233,4 @@ checkSpread(
     console.log("World");
   }
 );
+
