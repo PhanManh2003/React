@@ -29,7 +29,7 @@ let setArr = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
 let uniqueArr = [...new Set(setArr)]; // [1, 2, 3, 4, 5] // O(n^2)
 
 // 3. hàm indexOf, lastIndexOf
-
+console.log(users.indexOf("Hà")); // 2
 // 4. hàm includes(value) => kiểm tra xem mảng có chứa value không
 console.log(users.includes("Hải")); // true (áp dụng rất nhiều)
 
@@ -42,7 +42,7 @@ console.log(users.includes("Hải")); // true (áp dụng rất nhiều)
 
 // 8. hàm pop() => xóa phần tử cuối mảng, trả về phần tử bị xóa
 
-//---------------------------------- Loop + callback function ----------------------------------
+//---------------------------------- LOOP + CALL BACK FUNCTION ----------------------------------
 let users2 = ["Hải", "Huy", "Minh", "Vy", "Hà"];
 
 // 1. hàm fill(value, start, end) => thay thế các phần tử từ start đến end-1 bằng value
@@ -131,7 +131,7 @@ let productIndex = products.findIndex((product, index) => {
 });
 console.log(productIndex); // 1
 
-// 9. reduce(callback, initialValue) => giảm mảng thành 1 giá trị
+// 9. reduce(callback, initialValue) => giảm mảng thành 1 giá trị duy nhất
 /**
  * trong callback có 2 tham số: accumulator, currentValue => hàm reduce luôn return accumulator
  * nguyên tắc hàm callback: output của lần lặp trước là input của lần lặp sau (giống bài toán tính tổng)
@@ -164,7 +164,7 @@ const arrayOfArrays = [
 const mergedArray = arrayOfArrays.reduce((acc, curr) => [...acc, ...curr], []);
 console.log(mergedArray); // Output: [1, 2, 3, 4, 5, 6]
 
-// 10. flatMap(callback): trả về các phần tử mảng và đưa vào 1 mảng mới giống map nhưng các phần tử mảng dc hạ xuống 1 cấp
+// 10. flatMap(callback): trả vể 1 mảng mới giống map nhưng các phần tử mảng dc hạ xuống 1 cấp
 let numbers10 = [1, 2, 3, [2, 4], [7, 10, [12, 16]]];
 // mục tiêu trải mảng ra thành [1, 2, 3, 2, 4, 7, 10, 12, 16]
 let flatNumbers = numbers10.flatMap((num, index) => {
@@ -234,3 +234,24 @@ checkSpread(
   }
 );
 
+// 13. flat(depth): giảm mảng nhiều cấp xuống mảng 1 cấp
+// const arr = [1, 2, [3, 4, [5, 6]], 7];
+
+// const flattened = arr.flat(2);
+
+// console.log(flattened);
+// // Kết quả: [1, 2, 3, 4, 5, 6, 7]  => Hạ xuống 2 cấp
+
+// const arr = [1, [2, [3, [4, [5]]]]];
+
+// const flattened = arr.flat(Infinity);
+
+// console.log(flattened);
+// // Kết quả: [1, 2, 3, 4, 5]  => Hạ xuống tất cả các cấp
+
+const arr = [1, 2, , 4, [5, , 6]];
+
+const flattened = arr.flat();
+
+console.log(flattened);
+// Kết quả: [1, 2, 4, 5, 6]  => Loại bỏ phần tử trống hoặc undefined
