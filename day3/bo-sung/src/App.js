@@ -16,7 +16,7 @@
 //       {/* <h1>Count :{count}</h1>
 //       <button onClick={handleIncrease}>Increase</button>
 //       <button onClick={handleDecrease}>Decrease</button> */}
-//       <Children props={{ count, handleIncrease, handleDecrease }} />
+//       <Children props={{ count, handleIncrease, handleDecrease }} /> {/**gán một object JavaScript vào thuộc tính props của component Children */}
 //     </div>
 //   );
 // }
@@ -71,12 +71,12 @@ function Component4() {
 }
 
 function Component5() {
-  const user = useContext(UserContext);
+  const username = useContext(UserContext);
 
   return (
     <>
       <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
+      <h2>{`Hello ${username} again!`}</h2>
     </>
   );
 }

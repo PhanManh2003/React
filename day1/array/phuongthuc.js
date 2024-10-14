@@ -89,7 +89,11 @@ let check2 = numbers_2.every((num, index) => {
 });
 console.log(check2); // true
 
-// 6. filter(callback) => lọc ra các phần tử thỏa mãn callback return true và trả về mảng mới
+// 6. filter(callback) => lọc tất cả phần tử mảng và chỉ 
+// trả về những phần tử mà callback return true
+
+// nếu callback trả về true thì phần tử đó sẽ được đưa vào mảng mới
+// nếu callback trả về false thì phần tử đó sẽ không được đưa vào mảng mới
 
 let users3 = ["Hải", "Huy", "Minh", "Vy", "Hà"];
 // callback không có {} thì không cần return
