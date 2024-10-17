@@ -7,18 +7,19 @@ function SearchNavbar() {
     useContext(AppContext);
 
   const handleSearchNav = (subId) => {
+    // lấy ra mảng studentSubjects có subjectId = subId
     const getStudentSubjects = studentSubjects.filter(
       (stuSub) => stuSub.subjectId == subId
     );
+    // lấy ra mảng studentId học môn subId
     const getAllStudentId = getStudentSubjects.map(
       (stuSub) => stuSub.studentId
     );
-    setSearchNav(getAllStudentId.length > 0 ? getAllStudentId : [false]);
+    setSearchNav(getAllStudentId.length > 0 ? getAllStudentId : []);
 
     /* CHAT GPT */
     // setSearchNav([subId]); 
   };
-  console.log(searchNav);
 
   return (
     <div>

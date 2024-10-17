@@ -200,7 +200,7 @@ let genres = movies.flatMap((movie) => {
     return genre;
   });
 });
-console.log([...new Set(genres)]);
+console.log([...new Set(genres)]); // ["Action", "Sci-Fi", "Thriller", "Drama", "Crime", "Adventure", "HEHE"]
 
 // mình muốn các giá trị trùng lặp biến mất (reduce => O(n))
 // Set => lọc ra các giá trị trùng nhau

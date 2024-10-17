@@ -11,7 +11,7 @@ function App() {
     <div className="container-fluid">
         <HomePage />
         <hr></hr>
-        <h5 style={{ textAlign: "center" }}>Copyright: HE172481 </h5>
+        <h5 style={{ textAlign: "center" }}>Copyright: HE172481</h5>
     </div>
   );
 }

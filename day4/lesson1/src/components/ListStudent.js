@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import AppContext from "../provider/Context";
+
 function ListStudent() {
   const { students, stuDetails, searchName, searchNav,
      studentSubjects, setSearchName, setSearchNav } = useContext(AppContext);
@@ -12,11 +13,8 @@ function ListStudent() {
 
   // Lọc sinh viên theo tên hoặc môn học cách 1
   const filterStudent = students.filter((stu) => {
-    const nameMatch = stu.name.toLowerCase().includes(searchName.toLowerCase())
-     || searchName === '';
-    const navMatch =
-      searchNav?.includes(stu.studentId) || searchNav?.length === 0;
-
+    const nameMatch = stu.name.toLowerCase().includes(searchName.toLowerCase()) || searchName === '';
+    const navMatch = searchNav?.includes(stu.studentId) || searchNav?.length === 0;
     return nameMatch && navMatch;
   });
 
@@ -31,8 +29,8 @@ function ListStudent() {
   // if (searchNav.length > 0) {
   //   /**
   //    * độ phức tạp thời gian của đoạn mã dưới là O(n.m), trong đó:
-  //    *  - n là số lượng sinh viên trong mảng filteredStudents.
-  //    *  - m là số lượng phần tử trong mảng studentSubjects.
+  //    *  - n là số lượng sinh viên trong mảng students với tham số stu.
+  //    *  - m là số lượng phần tử trong mảng studentSubjects với tham số stuSub.
   //    */
   //  const filteredStudents = students.filter((stu) =>
   //     studentSubjects.some(
