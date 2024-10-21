@@ -93,36 +93,6 @@
       "studentId": "HE1710002",
       "grade": 9,
       "additionalExplanation": "PRO192 course"
-    },
-    {
-      "id": 6,
-      "studentId": "HE1710001",
-      "grade": 2,
-      "additionalExplanation": "Hải đẹp trai quá"
-    },
-    {
-      "id": 7,
-      "studentId": "HE1710001",
-      "grade": 1,
-      "additionalExplanation": "2"
-    },
-    {
-      "id": 8,
-      "studentId": "HE1710001",
-      "grade": "",
-      "additionalExplanation": ""
-    },
-    {
-      "id": 9,
-      "studentId": "HE1710001",
-      "grade": "",
-      "additionalExplanation": ""
-    },
-    {
-      "id": 10,
-      "studentId": "HE1710001",
-      "grade": 2,
-      "additionalExplanation": "3"
     }
   ],
   "subjects": [

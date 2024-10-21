@@ -1,20 +1,42 @@
 import React, { useContext, useEffect } from "react";
 import AppContext from "../provider/Context";
-
+import {  Link, useLocation } from "react-router-dom";
 function ListStudent() {
-  const { students, stuDetails, searchName, searchNav,
-     studentSubjects, setSearchName, setSearchNav } = useContext(AppContext);
+  const {
+    students,
+    stuDetails,
+    searchName,
+    searchNav,
+    studentSubjects,
+    setSearchName,
+    setSearchNav,
+  } = useContext(AppContext);
 
+  const searchParams = new URLSearchParams(useLocation().search);
+  const subjectId = searchParams.get("subject") ? searchParams.get("subject") : "";
+  
+  useEffect(() => {
+    const getAllStudentId = studentSubjects.filter((stuSub) => stuSub.subjectId === subjectId).map((stuSub) => stuSub.studentId);
+    setSearchNav(
+      getAllStudentId
+    );
+  }, [subjectId]);
+
+  
   const getDetail = (stuId) => {
     // trả về object student detail
     const detail = stuDetails.find((stu) => stu.studentId === stuId);
     return detail ? detail : "unknown";
   };
 
+   
   // Lọc sinh viên theo tên hoặc môn học cách 1
-  const filterStudent = students.filter((stu) => {
-    const nameMatch = stu.name.toLowerCase().includes(searchName.toLowerCase()) || searchName === '';
-    const navMatch = searchNav?.includes(stu.studentId) || searchNav?.length === 0;
+  const filterStudents = students.filter((stu) => {
+    const nameMatch =
+      stu.name.toLowerCase().includes(searchName.toLowerCase()) 
+      || searchName === "";
+    const navMatch =
+      searchNav?.includes(stu.studentId) || searchNav?.length === 0;
     return nameMatch && navMatch;
   });
 
@@ -43,19 +65,21 @@ function ListStudent() {
   // };
 
   const handleShowAll = () => {
-    setSearchName('');
+    setSearchName("");
     setSearchNav([]);
-  }
+  };
 
   return (
     <div>
       <h3>List of Students</h3>
-      <button className="btn btn-primary" onClick={handleShowAll}>Show all</button>
+      <button className="btn btn-primary mb-3" onClick={handleShowAll}>
+        Show all
+      </button>
       {/**
        * Luôn sử dụng onClick={() => handleFunction()} khi bạn cần truyền tham số.
        * Sử dụng onClick={handleFunction} khi không cần truyền tham số vào hàm.
        */}
-      <table className="table table-hover">
+      <table className="table table-hover table-striped table-bordered">
         <thead>
           <tr>
             <th>StudentId</th>
@@ -68,18 +92,18 @@ function ListStudent() {
           </tr>
         </thead>
         <tbody>
-          {filterStudent.map((stu, index) => (
-            <tr key={index}>
-              <td>{stu.studentId}</td>
-              <td>{stu.name}</td>
-              <td>{stu.age}</td>
-              <td>{getDetail(stu.studentId)?.address?.street}</td>
-              <td>{getDetail(stu.studentId)?.address?.city}</td>
-              <td>{stu.isRegularStudent ? "full time" : "part time"}</td>
-              <td>
-                <a href="">Grades</a>
-              </td>
-            </tr>
+          {filterStudents.map((stu, index) => (
+              <tr key={index}>
+                <td>{stu.studentId}</td>
+                <td>{stu.name}</td>
+                <td>{stu.age}</td>
+                <td>{getDetail(stu.studentId)?.address?.street}</td>
+                <td>{getDetail(stu.studentId)?.address?.city}</td>
+                <td>{stu.isRegularStudent ? "full time" : "part time"}</td>
+                <td>
+                  <Link to={`/student/${stu.studentId}`}>Grades</Link>
+                </td>
+              </tr>
           ))}
         </tbody>
       </table>

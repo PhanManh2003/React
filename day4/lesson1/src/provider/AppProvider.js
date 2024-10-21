@@ -9,6 +9,7 @@ function AppProvider({ children }) {
   const [studentSubjects, setStudentSubjects] = useState([]);
   const [searchName, setSearchName] = useState("");
   const [searchNav, setSearchNav] = useState([]);
+  const [evaluations, setEvaluations] = useState([]);
   useEffect(() => {
     // cách 1: dùng fetch
     // fetch("https://jsonplaceholder.typicode.com/todos")
@@ -34,6 +35,9 @@ function AppProvider({ children }) {
           "http://localhost:9999/students_subjetcs"
         );
         setStudentSubjects(resStudentSubjects.data);
+
+        const resEvaluations = await axios.get("http://localhost:9999/evaluations");
+        setEvaluations(resEvaluations.data);
       } catch (error) {
         console.log(error);
       }
@@ -56,6 +60,8 @@ function AppProvider({ children }) {
     setSearchNav,
     studentSubjects,
     setStudentSubjects,
+    evaluations,
+    setEvaluations,
   };
 
   return <AppContext.Provider value={data}>{children}</AppContext.Provider>;

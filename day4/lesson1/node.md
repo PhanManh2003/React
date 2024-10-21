@@ -6,3 +6,5 @@ npm i json-server
 
 ## chạy json-server
 json-server -w file_name -p port_name
+
+

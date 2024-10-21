@@ -2,6 +2,7 @@ import React from "react";
 import SearchName from "./SearchName";
 import SearchNavbar from "./SearchNavbar";
 import ListStudent from "./ListStudent";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function Homepage() {
   return (
     <div className="row">
