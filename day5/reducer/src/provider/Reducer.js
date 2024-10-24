@@ -43,7 +43,7 @@ const reducer = (state, action) => {
           quantity: updatedItems[existProductIndex].quantity + 1, // Tăng số lượng
         };
 
-        // Trả về state mới sau khi cập nhật (lúc này state cũ mới bị thay đổi)
+        // Trả về 1 đối tượng state mới sau khi cập nhật mảng items
         return {
           ...state,
           items: updatedItems,

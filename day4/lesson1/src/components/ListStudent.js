@@ -12,6 +12,7 @@ function ListStudent() {
     setSearchNav,
   } = useContext(AppContext);
 
+  // xử lí lấy subjectId từ url
   const searchParams = new URLSearchParams(useLocation().search);
   const subjectId = searchParams.get("subject") ? searchParams.get("subject") : "";
   
