@@ -23,7 +23,7 @@ function GradeDetail() {
     e.preventDefault();
 
     // Validate inputs
-    if (isNaN(grade) || grade.length === 0) {
+    if (isNaN(grade) || grade.length === 0) { // isNaN("") vẫn là false vì coi đây là số 0
         alert("Grade must be a number");
         return;
     }
@@ -39,8 +39,6 @@ function GradeDetail() {
         grade: parseInt(grade),  // Chuyển đổi grade sang số
         additionalExplanation: explanation,
     };
-
-    console.log("New Evaluation:", newEvaluation); // Kiểm tra giá trị
 
     try {
         const resData = await axios.post("http://localhost:9999/evaluations", newEvaluation);

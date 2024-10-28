@@ -12,10 +12,11 @@ function ListStudent() {
     setSearchNav,
   } = useContext(AppContext);
 
-  // xử lí lấy subjectId từ url
+  // xử lí lấy subjectId từ URL
   const searchParams = new URLSearchParams(useLocation().search);
   const subjectId = searchParams.get("subject") ? searchParams.get("subject") : "";
   
+  // lấy ra tất cả studentId học 1 môn
   useEffect(() => {
     const getAllStudentId = studentSubjects.filter((stuSub) => stuSub.subjectId === subjectId).map((stuSub) => stuSub.studentId);
     setSearchNav(
