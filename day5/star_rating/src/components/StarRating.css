@@ -1,0 +1,27 @@
+/* src/StarRating.css */
+.rating-selection {
+   display: flex;
+   direction: row;
+ }
+ 
+ .star-container {
+   position: relative;
+   margin: 0 5px;
+ }
+ 
+ .rating-input {
+   display: none; /* Ẩn input radio */
+ }
+ 
+ .rating-star {
+   font-size: 30px;
+   cursor: pointer;
+   color: gray; /* Màu sắc khi chưa chọn */
+   transition: color 0.2s ease;
+ }
+ 
+ .rating-star.hover,
+ .rating-star.selected {
+   color: gold; /* Màu sắc khi hover hoặc đã chọn */
+ }
+ 
