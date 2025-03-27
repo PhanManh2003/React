@@ -34,7 +34,7 @@ const reducer = (state, action) => {
 
       // Nếu sản phẩm đã tồn tại
       if (existProductIndex !== -1) {
-        // Clone lại mảng items để bảo toàn tính bất biến của state cũ
+        // Clone lại mảng items rồi sửa mảng clone để bảo toàn tính bất biến của state cũ
         const updatedItems = [...state.items];
 
         // Cập nhật số lượng cho sản phẩm đã tồn tại
@@ -95,7 +95,7 @@ const reducer = (state, action) => {
 - Bất biến của state: Reducer trong useReducer hay Redux đều yêu cầu state
  là bất biến. Điều này có nghĩa là bạn không nên trực tiếp thay đổi state 
  hiện tại, mà thay vào đó cần tạo ra một bản sao của nó và chỉ thay đổi 
- những phần bạn cần.
+ những phần bạn cần. ( ở trên chỉ có mảng items cần thay đổi nên chỉ cần clone nó là đủ)
 
  Trong trường hợp này, updatedItems là bản sao của mảng items,
  và sau đó bạn trả về một đối tượng state mới với mảng items đã 

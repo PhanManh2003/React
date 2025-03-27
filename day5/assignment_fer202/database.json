@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "user2",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "username": "user4",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "username": "user5",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "6",
+      "username": "user6",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "7",
+      "username": "user7",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "8",
+      "username": "user8",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "9",
+      "username": "user9",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "10",
+      "username": "user10",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "11",
+      "username": "user11",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "12",
+      "username": "user12",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "13",
+      "username": "user13",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "14",
+      "username": "user14",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "15",
+      "username": "user15",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "16",
+      "username": "user16",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "17",
+      "username": "user17",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "18",
+      "username": "user18",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "19",
+      "username": "user19",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "20",
+      "username": "user20",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "21",
+      "username": "user21",
+      "password": "12345",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "CPU Intel Core i3 10100 ( 4 Cores 8 Threads Socket 1200 )",
+      "price": "2999000",
+      "image": "https://kccshop.vn/media/product/250-181-cpu-intel-core-i3-10100-anh-dai-dien.jpg",
+      "description": "1. Ưu điểm nổi bật của CPU Intel Core i3 10100\n- CPU Intel Core i3-10100 với 4 nhân 8 luồng, thuộc dòng Comet Lake, được sản xuất trên tiến trình 14nm.\n- Có sẵn GPU Onboard Intel UHD Graphics 630, không bị vô hiệu hóa như trên dòng CPU F.\n- Hướng đến người dùng giải trí, game thủ, và công việc đồ họa.\n- Được trang bị công nghệ siêu phân luồng."
+    },
+    {
+      "id": "2",
+      "name": "CPU Intel Core i3-10105F",
+      "price": "1750000",
+      "image": "https://kccshop.vn/media/product/250-183-58401_cpu_intel_core_i3_10105f_3_7ghz_turbo_up_to_4_4ghz_4_nhan_8_luong_6mb_cache_65w_socket_intel_lga_1200_1.jpeg",
+      "description": "1. Ưu điểm nổi bật của CPU Intel Core i3-10105F\n- Tương thích với các bo mạch chủ thế hệ cũ.\n- Công nghệ theo dõi nhiệt.\n- Công nghệ siêu phân luồng.\n- Công nghệ Intel Turbo Boost 2.0.\n- Năng suất tăng cường với Intel Optane.\n\n2. Thông số và tính năng của CPU Intel Core i3-10105F\nCPU Intel Core i3-10105F là phiên bản nâng cấp của i3-10100F với xung nhịp tăng nhẹ và hiệu suất trên mỗi nhân được cải thiện. Với 4 nhân 8 luồng, đây là CPU có hiệu năng trên giá thành tốt nhất của Intel ở phân khúc phổ thông.\n\nPhiên bản này không tích hợp GPU (kí tự F sau tên sản phẩm), do đó để sử dụng, bạn bắt buộc phải dùng card đồ họa rời."
+    },
+    {
+      "id": "3",
+      "name": "CPU Intel Core i3 10100F (3.60 Up to 4.30GHz)",
+      "price": "2100000",
+      "image": "https://kccshop.vn/media/product/250-2421-cpu-intel-core-i3-10100f-anh-dai-dien--1-.jpg",
+      "description": "1. Hiệu năng của CPU Intel Core i3-10100F\nIntel Core i3-10100F (BX8070110100F) là bộ xử lý 4 lõi dành cho máy tính để bàn dựa trên kiến trúc Comet Lake-S.\n\nNó cung cấp 4 lõi tốc độ 3,6 – 4,3 GHz với hỗ trợ HyperThreading/SMT (8 luồng). CPU vẫn được sản xuất trên quy trình 14nm++. Vì là dòng “F”, CPU này không có đồ họa tích hợp (iGPU).\n\nIntel chỉ định CPU có TDP là 65 Watt và hoạt động tương đối mát. Không cần đến các giải pháp tản nhiệt phức tạp.\n\n2. Thông số và tính năng của CPU Intel Core i3-10100F\nCPU Intel Core i3-10100F là lựa chọn hoàn hảo cho các bộ máy chơi game cơ bản và tầm trung, với việc lược bỏ GPU tích hợp giúp giá thành dễ tiếp cận hơn.\n\nSiêu phân luồng trở lại với dòng i3\nSau gần 3 năm, công nghệ siêu phân luồng đã quay lại với dòng i3. Với số nhân và số luồng vượt trội so với các thế hệ cũ, i3-10100F có thể sánh ngang hoặc thậm chí mạnh hơn i7-7700 của năm 2017."
+    },
+    {
+      "id": "4",
+      "name": "CPU Intel Core i3 14100 Chính Hãng",
+      "price": "3920000",
+      "image": "https://kccshop.vn/media/product/250-8598-intel-core-i3-14100-ch--nh-h--ng.jpg",
+      "description": "Với tốc độ xung nhịp cao, Intel Core i3-14100 đáp ứng nhanh chóng các nhu cầu xử lý yêu cầu hiệu suất cao như xử lý âm thanh, video, đồ họa và chơi game.\n\n4 lõi và 8 luồng của CPU cho phép bạn thực hiện nhiều tác vụ cùng lúc mà không gặp trở ngại, từ xem video và duyệt web đến làm việc với các ứng dụng văn phòng.\n\nBộ nhớ cache 12MB tích hợp giúp cải thiện hiệu suất xử lý bằng cách lưu trữ dữ liệu thường xuyên sử dụng gần CPU, giảm thiểu thời gian truy cập và tăng tốc độ xử lý tổng thể.\n\nĐặc biệt, CPU i3-14100 tương thích với các bo mạch chủ sử dụng socket LGA 1700, cho phép bạn dễ dàng nâng cấp hệ thống hiện tại hoặc xây dựng một cấu hình mới với hiệu suất vượt trội.\n\nBên cạnh đó, công nghệ tiết kiệm năng lượng tiên tiến của Intel giúp giảm tiêu thụ điện năng và giữ cho hệ thống hoạt động ổn định, mát mẻ trong suốt thời gian sử dụng."
+    },
+    {
+      "id": "5",
+      "name": "CPU Intel Core i3 12100 TRAY",
+      "price": "2380000",
+      "image": "https://kccshop.vn/media/product/250-6513-6.png",
+      "description": "Hiệu năng mạnh mẽ cho nhu cầu cơ bản\nVới 4 nhân hiệu năng cao và 4 nhân tiết kiệm năng lượng, Core i3 12100 TRAY mang lại hiệu suất ấn tượng cho các tác vụ hàng ngày như duyệt web, xử lý văn phòng và giải trí đa phương tiện. Tần số xung nhịp tối đa 4.30 GHz giúp CPU xử lý nhanh chóng các ứng dụng đơn luồng.\n\nBộ nhớ cache 18 MB cùng với hỗ trợ RAM DDR4-3200 và DDR5-4800 giúp tăng tốc độ truy xuất dữ liệu, cải thiện hiệu suất tổng thể của hệ thống. Đồ họa tích hợp Intel UHD Graphics 730 đủ khả năng xử lý các tác vụ đồ họa cơ bản và giải trí nhẹ nhàng.\n\nCông nghệ tiên tiến\nCPU Intel Core i3 12100 TRAY được trang bị nhiều công nghệ hiện đại như:\n\n- Intel Turbo Boost Max Technology 3.0: Tự động tăng tốc độ xử lý cho các ứng dụng đơn luồng.\n- Intel Hyper-Threading: Cho phép mỗi nhân xử lý 2 luồng cùng lúc, tăng hiệu suất đa nhiệm.\n- Intel Virtualization Technology (VT-x): Hỗ trợ ảo hóa, tối ưu cho việc chạy máy ảo.\n- Intel AES New Instructions: Tăng tốc mã hóa và giải mã dữ liệu.\n\nVới hiệu năng mạnh mẽ và nhiều tính năng hiện đại, CPU Intel Core i3 12100 TRAY là lựa chọn lý tưởng cho các hệ thống máy tính văn phòng, học tập và giải trí cơ bản. Sản phẩm mang lại trải nghiệm sử dụng mượt mà và đáp ứng tốt nhu cầu đa nhiệm nhẹ của người dùng."
+    },
+    {
+      "id": "6",
+      "name": "CPU Intel Core i7 14700K Chính Hãng",
+      "price": "11350000",
+      "image": "https://kccshop.vn/media/product/250-6151-3-min.jpg",
+      "description": "Điểm Nổi Bật:\n\n- Hiệu Năng Mạnh Mẽ: Với tổng cộng 20 nhân và 28 luồng (bao gồm 8 nhân P-Core và 12 nhân E-Core), Intel Core i7 14700K mang đến khả năng xử lý đa nhiệm vượt trội. Điều này giúp bạn xử lý mọi tác vụ từ công việc chuyên nghiệp đến giải trí số mượt mà và hiệu quả.\n\n- Tốc Độ Turbo Ấn Tượng: Với P-Core có tốc độ turbo lên đến 5.6GHz và E-Core đạt 4.3GHz, CPU này đảm bảo hiệu suất tối đa trong khi xử lý các ứng dụng đòi hỏi tốc độ và đa nhiệm.\n\n- Socket Tiêu Chuẩn: Sử dụng socket LGA1700 tiêu chuẩn, bạn dễ dàng thay thế hoặc nâng cấp CPU trong tương lai.\n\n- Bộ Nhớ Đệm Lớn: Với 33MB bộ nhớ đệm Intel Smart Cache, bạn có khả năng truy cập dữ liệu nhanh chóng và liên tục, giúp tối ưu hóa hiệu suất trong mọi tình huống.\n\n- Tiết Kiệm Năng Lượng: Với chỉ 125W TDP, Intel Core i7-14700K cung cấp sức mạnh mà không tăng đáng kể tiêu thụ điện."
+    },
+    {
+      "id": "7",
+      "name": "CPU Intel Core i7 12700K Tray",
+      "price": "5790000",
+      "image": "https://kccshop.vn/media/product/250-8267-1.jpg",
+      "description": "Bộ nhớ đệm và Cache\nCPU Core i7-12700K Tray được trang bị bộ nhớ đệm (cache) lớn, với 25 MB bộ nhớ đệm và 12 MB Total L2 Cache. Bộ nhớ đệm này giúp cải thiện tốc độ truy cập dữ liệu, giảm thiểu độ trễ và tăng hiệu suất tổng thể của hệ thống. Với dung lượng cache lớn, CPU có thể xử lý nhiều tác vụ cùng lúc mà không gặp trở ngại, đảm bảo sự mượt mà và nhanh chóng trong mọi hoạt động.\n\nNhân và Luồng CPU\nMột trong những điểm nổi bật của Intel Core i7-12700K là số lượng nhân và luồng CPU. Với 12 nhân và 20 luồng, bộ vi xử lý này mang lại khả năng đa nhiệm vượt trội. Bạn có thể dễ dàng chạy nhiều ứng dụng cùng lúc, từ các phần mềm văn phòng đến các chương trình đồ họa nặng hay trò chơi đòi hỏi cấu hình cao, mà không gặp tình trạng giật lag hay chậm trễ.\n\nĐồ họa tích hợp\nIntel Core i7-12700K tích hợp Intel® UHD Graphics 770, cung cấp khả năng xử lý đồ họa mạnh mẽ mà không cần sử dụng card đồ họa rời. Đồ họa tích hợp này hỗ trợ các tác vụ từ xem video 4K, chơi game nhẹ, đến xử lý hình ảnh và video cơ bản. Điều này giúp bạn tiết kiệm chi phí và không gian, đồng thời vẫn đảm bảo hiệu suất đồ họa tốt cho các nhu cầu sử dụng hàng ngày.\n\nBộ nhớ hỗ trợ\nIntel Core i7-12700K hỗ trợ bộ nhớ tối đa lên đến 128 GB, đáp ứng mọi nhu cầu từ người dùng thông thường đến các chuyên gia công nghệ. Bộ vi xử lý này tương thích với cả DDR5 và DDR4, mang lại sự linh hoạt trong việc lựa chọn và nâng cấp bộ nhớ:\n\n- DDR5: Tối đa 4800 MT/s\n- DDR4: Tối đa 3200 MT/s"
+    },
+    {
+      "id": "8",
+      "name": "CPU Intel Core Ultra 7 265K",
+      "price": "10540000",
+      "image": "https://kccshop.vn/media/product/250-9483-cpu-intel-core-ultra-7-265k-bx80768265k-01.jpg",
+      "description": "Bộ nhớ đệm và Cache\nCPU Core Ultra 7 265K được trang bị bộ nhớ đệm (cache) lớn, với 25 MB bộ nhớ đệm và 12 MB Total L2 Cache. Bộ nhớ đệm này giúp cải thiện tốc độ truy cập dữ liệu, giảm thiểu độ trễ và tăng hiệu suất tổng thể của hệ thống. Với dung lượng cache lớn, CPU có thể xử lý nhiều tác vụ cùng lúc mà không gặp trở ngại, đảm bảo sự mượt mà và nhanh chóng trong mọi hoạt động.\n\nNhân và Luồng CPU\nMột trong những điểm nổi bật của Intel Core i7-12700K là số lượng nhân và luồng CPU. Với 12 nhân và 20 luồng, bộ vi xử lý này mang lại khả năng đa nhiệm vượt trội. Bạn có thể dễ dàng chạy nhiều ứng dụng cùng lúc, từ các phần mềm văn phòng đến các chương trình đồ họa nặng hay trò chơi đòi hỏi cấu hình cao, mà không gặp tình trạng giật lag hay chậm trễ.\n\nĐồ họa tích hợp\nIntel Core i7-12700K tích hợp Intel® UHD Graphics 770, cung cấp khả năng xử lý đồ họa mạnh mẽ mà không cần sử dụng card đồ họa rời. Đồ họa tích hợp này hỗ trợ các tác vụ từ xem video 4K, chơi game nhẹ, đến xử lý hình ảnh và video cơ bản. Điều này giúp bạn tiết kiệm chi phí và không gian, đồng thời vẫn đảm bảo hiệu suất đồ họa tốt cho các nhu cầu sử dụng hàng ngày.\n\nBộ nhớ hỗ trợ\nIntel Core i7-12700K hỗ trợ bộ nhớ tối đa lên đến 128 GB, đáp ứng mọi nhu cầu từ người dùng thông thường đến các chuyên gia công nghệ. Bộ vi xử lý này tương thích với cả DDR5 và DDR4, mang lại sự linh hoạt trong việc lựa chọn và nâng cấp bộ nhớ:\n\n- DDR5: Tối đa 4800 MT/s\n- DDR4: Tối đa 3200 MT/s"
+    },
+    {
+      "id": "9",
+      "name": "CPU Intel Core i9 12900KS",
+      "price": "8240000",
+      "image": "https://kccshop.vn/media/product/250-3344-12900ks01.jpg",
+      "description": "Bộ nhớ đệm và Cache\nCPU Intel Core i9 12900KS được trang bị bộ nhớ đệm (cache) lớn, với 25 MB bộ nhớ đệm và 12 MB Total L2 Cache. Bộ nhớ đệm này giúp cải thiện tốc độ truy cập dữ liệu, giảm thiểu độ trễ và tăng hiệu suất tổng thể của hệ thống. Với dung lượng cache lớn, CPU có thể xử lý nhiều tác vụ cùng lúc mà không gặp trở ngại, đảm bảo sự mượt mà và nhanh chóng trong mọi hoạt động.\n\nNhân và Luồng CPU\nMột trong những điểm nổi bật của Intel Core i7-12700K là số lượng nhân và luồng CPU. Với 12 nhân và 20 luồng, bộ vi xử lý này mang lại khả năng đa nhiệm vượt trội. Bạn có thể dễ dàng chạy nhiều ứng dụng cùng lúc, từ các phần mềm văn phòng đến các chương trình đồ họa nặng hay trò chơi đòi hỏi cấu hình cao, mà không gặp tình trạng giật lag hay chậm trễ.\n\nĐồ họa tích hợp\nIntel Core i7-12700K tích hợp Intel® UHD Graphics 770, cung cấp khả năng xử lý đồ họa mạnh mẽ mà không cần sử dụng card đồ họa rời. Đồ họa tích hợp này hỗ trợ các tác vụ từ xem video 4K, chơi game nhẹ, đến xử lý hình ảnh và video cơ bản. Điều này giúp bạn tiết kiệm chi phí và không gian, đồng thời vẫn đảm bảo hiệu suất đồ họa tốt cho các nhu cầu sử dụng hàng ngày.\n\nBộ nhớ hỗ trợ\nIntel Core i7-12700K hỗ trợ bộ nhớ tối đa lên đến 128 GB, đáp ứng mọi nhu cầu từ người dùng thông thường đến các chuyên gia công nghệ. Bộ vi xử lý này tương thích với cả DDR5 và DDR4, mang lại sự linh hoạt trong việc lựa chọn và nâng cấp bộ nhớ:\n\n- DDR5: Tối đa 4800 MT/s\n- DDR4: Tối đa 3200 MT/s"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "1",
+      "content": "Sản phẩm tốt",
+      "rating": "5"
+    }
+  ]
+}

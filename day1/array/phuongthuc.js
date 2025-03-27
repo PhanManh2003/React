@@ -150,7 +150,7 @@ const numbers7 = [1, 2, 3, 4, 5];
 
 const sum = numbers7.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
-}, 0); // Giá trị ban đầu là 0
+}, 0); // Giá trị ban đầu cua accumulator là 0
 
 console.log(sum); // Kết quả: 15
 
