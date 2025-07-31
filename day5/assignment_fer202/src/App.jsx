@@ -27,7 +27,7 @@ function App() {
         role === "user" &&
         (location.pathname === "/" || location.pathname === "/login")
       ) {
-        navigate("/homepage", { replace: true });
+        navigate("/homepage", { replace: true }); // replace: true để không lưu vào history stack, ko thể back lại bằng trình duyệt
       }
     }
   }, [location.pathname, isAuthenticated, role, navigate]);
